@@ -1,6 +1,7 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace OAuth.Api.Controllers
+namespace OAuth.Resource.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -18,6 +19,7 @@ namespace OAuth.Api.Controllers
             _logger = logger;
         }
 
+        [Authorize]
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {

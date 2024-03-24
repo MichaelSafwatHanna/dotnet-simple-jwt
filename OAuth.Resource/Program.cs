@@ -1,6 +1,6 @@
 using OAuth.Common.Extensions;
 
-namespace OAuth.Api
+namespace OAuth.Resource
 {
     public class Program
     {
@@ -10,9 +10,9 @@ namespace OAuth.Api
 
             // Add services to the container.
 
-            builder.Services.AddControllers();
+            builder.Services.AddCustomAuthentication(builder.Configuration);
 
-            builder.Services.AddJwtConfiguration(builder.Configuration);
+            builder.Services.AddControllers();
 
             var app = builder.Build();
 
@@ -20,7 +20,9 @@ namespace OAuth.Api
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
+
 
             app.MapControllers();
 

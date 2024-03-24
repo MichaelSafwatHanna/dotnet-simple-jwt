@@ -1,4 +1,4 @@
-namespace OAuth.Api
+namespace OAuth.Resource
 {
     public class WeatherForecast
     {

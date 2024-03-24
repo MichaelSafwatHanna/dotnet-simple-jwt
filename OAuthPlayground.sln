@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Api", "OAuth.Api\OAuth.Api.csproj", "{6D66EF3D-6BB0-4CD6-A50C-7AE1C643AFD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OAuth.Api", "OAuth.Api\OAuth.Api.csproj", "{6D66EF3D-6BB0-4CD6-A50C-7AE1C643AFD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Common", "OAuth.Common\OAuth.Common.csproj", "{569ECF79-B3E6-488F-A8CB-A1EB0530D3C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Resource", "OAuth.Resource\OAuth.Resource.csproj", "{CCBF3A2D-B616-4745-9AE2-2AA1352ED6A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6D66EF3D-6BB0-4CD6-A50C-7AE1C643AFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D66EF3D-6BB0-4CD6-A50C-7AE1C643AFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D66EF3D-6BB0-4CD6-A50C-7AE1C643AFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569ECF79-B3E6-488F-A8CB-A1EB0530D3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569ECF79-B3E6-488F-A8CB-A1EB0530D3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569ECF79-B3E6-488F-A8CB-A1EB0530D3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569ECF79-B3E6-488F-A8CB-A1EB0530D3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBF3A2D-B616-4745-9AE2-2AA1352ED6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBF3A2D-B616-4745-9AE2-2AA1352ED6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBF3A2D-B616-4745-9AE2-2AA1352ED6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBF3A2D-B616-4745-9AE2-2AA1352ED6A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
